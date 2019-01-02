@@ -40,6 +40,7 @@ Command* CommandProcessor::findCommand(std::string &anInput) {
 
 int runTests() {
   //add a test for each known command...
+  std::cout << "runTests " << std::endl;
   return 0;
 }
 
