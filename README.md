@@ -75,7 +75,7 @@ To correctly implement the `runTests()` method, you need to test each of your co
 
 Your `runTests()` method should call 3 new methods you define:
 ```
-  runCDTests(); //make calls test the 3 versions of the "cp" command listed above.
+  runCDTests(); //test the 3 variations of the "cd" command listed above.
   runLSTests(); //test the 2 variations of the ls command shown above.
   runMVTests(); //test the 3 variables of the mv command shown above.
 ```
