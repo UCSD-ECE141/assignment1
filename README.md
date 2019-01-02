@@ -93,7 +93,7 @@ runMVTests
 ```
 
 
-Estimated newbie time: 2 hours. 
+Estimated newbie time: 1-2 hours. 
 
 ### 3.3 - Fill out the student.json file in your project directory
 
