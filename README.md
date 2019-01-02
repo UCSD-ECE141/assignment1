@@ -46,10 +46,6 @@ Implement the `CommandProcessor::runTests()` method, and change `main()` to invo
 
 To correctly implement the `runTests()` method, you need to test each of your commands (there are 3). Commands may require 0, 1, or 2 arguments, and you'll need to write a test for each of the following scenarios:
 
-```
-xxx
-```
-
 #### CD commands
 
 `cd ..` -- change current working directory to parent 
@@ -71,6 +67,20 @@ xxx
 `mv arg1` -- report an error due to the lack of arg2
 
 `mv` -- report an error due to the lack of arg1 and arg2
+
+As your tests run, they will emit output to standard out (via cout). Your output should look something like this:
+
+
+```
+runTests()
+runCDTests(); 
+...output from cd tests here...
+runLSTests();
+...output from LS tests here...
+runMVTests();
+...output from MV tests here...
+```
+
 
 Estimated newbie time: 2 hours. 
 
