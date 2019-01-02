@@ -22,7 +22,7 @@ int Command::operator ()(std::string &anInputString) {
   //if you have a valid number of arguments, output the command with args
   //otherwise return an error code related to the arguments
   
-  std::cout << "called " << anInputString << std::endl;
+  std::cout << "called " << mKeyword << " with " << anInputString << std::endl;
   return 0; //would be an error code; 0=ok
 }
 
