@@ -8,7 +8,7 @@ You've successfully located the first assignment for ECE141a. For most of you, t
 Read chapter 1 and 2 in the textbook: C++ The Core Language. Don't worry -- this amounts to about 20 pages. 
 For the sake of improving this course, please track how much time the reading takes you. 
 
-Estimated newbie time: 1 hour
+Estimated newbie time: 1 hour.
 
 ![alt text](images/book.jpg "Title")
 
@@ -20,7 +20,7 @@ Estimated newbie time: 1 hour
 - If you're a unix user, install a modern C++ compiler, gdb, and your favorite code editor; makefiles may be provided
 - There are other options (e.g. CLion) if the given options don't meet your needs
 
-Estimated newbie time: < 1 hour
+Estimated newbie time: < 1 hour.
 
 
 ## Part 3 - Build, debug, checkin working code to github
@@ -113,4 +113,4 @@ Estimated newbie time: 5-10 minutes.
 
 Please review the provided source code and be prepared to answer questions you find in comments. It is strongly recommended that you consider each question, and use your textbook (or the Google machine) to work through the questions you encounter. We're trying to build reliable congnitive models here -- so take your time. 
 
-Estimated newbie time: 1-2 hours. 
+Estimated newbie time: 1 hour. 
