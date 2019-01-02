@@ -68,8 +68,14 @@ To correctly implement the `runTests()` method, you need to test each of your co
 
 `mv` -- report an error due to the lack of arg1 and arg2
 
-As your tests run, they will emit output to standard out (via cout). Your output should look something like this:
+Your `runTests()` method should call 3 new methods you define:
+```
+  runCDTests();
+  runLSTests();
+  runMVTests(); 
+```
 
+As your tests run, they will emit output to standard out (via cout). Your output should look something like this:
 
 ```
 runTests()
