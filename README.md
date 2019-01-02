@@ -46,6 +46,10 @@ Implement the `CommandProcessor::runTests()` method, and change `main()` to invo
 
 To correctly implement the `runTests()` method, you need to test each of your commands (there are 3). Commands may require 0, 1, or 2 arguments, and you'll need to write a test for each of the following scenarios:
 
+```
+xxx
+```
+
 #### CD commands
 
 `cd ..` -- change current working directory to parent 
