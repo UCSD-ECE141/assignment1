@@ -83,12 +83,12 @@ Your `runTests()` method should call 3 new methods you define:
 As your tests run, they will emit output to standard out (via cout). Your output should look something like this:
 
 ```
-runTests()
-runCDTests(); 
+runTests
+runCDTests 
 ...output from cd tests here...
-runLSTests();
+runLSTests
 ...output from LS tests here...
-runMVTests();
+runMVTests
 ...output from MV tests here...
 ```
 
