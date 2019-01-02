@@ -75,10 +75,12 @@ To correctly implement the `runTests()` method, you need to test each of your co
 
 Your `runTests()` method should call 3 new methods you define:
 ```
-  runCDTests();
-  runLSTests();
-  runMVTests(); 
+  runCDTests(); //make calls test the 3 versions of the "cp" command listed above.
+  runLSTests(); //test the 2 variations of the ls command shown above.
+  runMVTests(); //test the 3 variables of the mv command shown above.
 ```
+
+You can use the `runTests()` method in the `CommandProcessor` class as an example of how to write the 3 new methods. For clarity, look at the `runInteractive` method to see how to invoke a command, given an input string.
 
 As your tests run, they will emit output to standard out (via cout). Your output should look something like this:
 
